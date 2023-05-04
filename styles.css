@@ -25,10 +25,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: flex-end;
     margin: 5px;
     padding: 5px;
-    min-height: 70px;
     background-color: lightgray;
+    font-size: 5.5em;
+    font-family: sans-serif;
+    min-height: 70px;
 }
 
 .container-button {
@@ -45,12 +48,48 @@ body {
     flex: 2.45;
 }
 
+.clear {
+    background-color: rgba(247, 34, 34, 0.781);
+}
+
+.sign {
+    background-color: rgba(247, 34, 34, 0.781);
+}
+
+.percent {
+    background-color: rgba(247, 34, 34, 0.781);
+}
+
+.operator {
+    background-color: rgb(57, 212, 212);
+}
+
+.operand {
+    background-color: lightgreen;
+}
+
+.zero {
+    background-color: lightgreen;
+}
+
+.decimal {
+    background-color: lightgreen;
+}
+
+.equals {
+    background-color: rgb(57, 212, 212);
+}
+
 button {
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
     margin: 1px;
+    border-radius: 5%;
+    font-size: 2em;
+    font-family: sans-serif;
+    color: black;
     min-width: 80px;
     min-height: 82px;
 
