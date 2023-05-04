@@ -4,21 +4,20 @@ body {
     align-items: center;
     margin: 8px;
     text-align: center;
-
     
 }
 
 .container {
     background-color: black;
     border: 10px solid rgba(47,47,47,1);
-    width: 80%;
+    width: 100%;
     max-width: 400px;
     height: 50%;
     gap: 2px;
-    /*display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
-    */
+    
     
 }
 
@@ -29,13 +28,30 @@ body {
     margin: 5px;
     padding: 5px;
     min-height: 70px;
-    background-color: grey;
+    background-color: lightgray;
+}
+
+.container-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.button-separate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 2.45;
 }
 
 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
     margin: 1px;
     min-width: 80px;
-    width: 20%;
-    min-height: 80px;
+    min-height: 82px;
 
 }
