@@ -49,15 +49,15 @@ body {
 }
 
 .clear {
-    background-color: rgba(247, 34, 34, 0.781);
+    background-color: rgb(0, 128, 128);
 }
 
 .sign {
-    background-color: rgba(247, 34, 34, 0.781);
+    background-color: rgb(0, 128, 128);
 }
 
 .percent {
-    background-color: rgba(247, 34, 34, 0.781);
+    background-color: rgb(0, 128, 128);
 }
 
 .operator {
@@ -77,7 +77,7 @@ body {
 }
 
 .equals {
-    background-color: rgb(57, 212, 212);
+    background-color: rgba(247, 34, 34, 0.781);
 }
 
 button {
