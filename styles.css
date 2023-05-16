@@ -41,6 +41,10 @@ body {
     min-height: 70px;
 }
 
+.displayValue {
+    margin: 5px;
+}
+
 .container-button {
     display: flex;
     flex-direction: row;
