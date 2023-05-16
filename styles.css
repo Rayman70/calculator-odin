@@ -41,7 +41,7 @@ body {
     min-height: 70px;
 }
 
-.displayValue {
+.displayValue, p {
     margin: 5px;
 }
 
