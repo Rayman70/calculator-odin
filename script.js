@@ -1,10 +1,11 @@
-let displayValue = 0;
 
 
 function updateDisplay() {
     let display = document.querySelector(".display");
-    displayValue = display.innerText;
-    console.log(display);
+    let displayValue = document.createElement("p");
+    displayValue.innerText = "0";
+    display.appendChild(displayValue);
+    console.log(displayValue);
 
 }
 
