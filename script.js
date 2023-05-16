@@ -1,3 +1,17 @@
+let displayValue = 0;
+
+
+function updateDisplay() {
+    let display = document.querySelector(".display");
+    displayValue = display.innerText;
+    console.log(display);
+
+}
+
+updateDisplay();
+
+
+
 
 function calcAdd(num1, num2) {
     return num1 += num2;
