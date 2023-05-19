@@ -11,6 +11,18 @@ function updateDisplay() {
 
 updateDisplay();
 
+function pressButtons() {
+    let buttons = document.querySelectorAll("[type=button]");
+
+    buttons.forEach(button => {
+        button.addEventListener("click", (e) => {
+            console.log(e.target.value);
+        });
+    });
+}
+
+pressButtons();
+
 
 
 
